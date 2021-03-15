@@ -15,14 +15,9 @@ fresh config/nix-shell.sh
 
 fresh config/aws.sh
 fresh config/clipboard.sh
-fresh config/codecdpath.sh
 fresh config/completion.sh
-fresh config/conda.sh
 fresh config/coreutils.sh
-fresh config/direnv.sh
 fresh config/editor.sh
-fresh config/history.sh
-fresh config/nvm.sh
 fresh config/opts.sh
 fresh config/path.sh
 fresh config/prompt.sh
