@@ -1,0 +1,43 @@
+# freshshell.com
+#
+# Examples:
+#
+#   fresh twe4ked/dotfiles shell/functions/\*
+#   fresh jasoncodes/dotfiles shell/aliases/rails.sh
+#   fresh jasoncodes/dotfiles config/tmux.conf --file
+#
+# See http://freshshell.com/readme for documentation.
+
+fresh freshshell/fresh bin/fresh --bin
+
+fresh config/nix.sh
+fresh config/nix-shell.sh
+
+fresh config/aws.sh
+fresh config/clipboard.sh
+fresh config/codecdpath.sh
+fresh config/completion.sh
+fresh config/conda.sh
+fresh config/coreutils.sh
+fresh config/direnv.sh
+fresh config/editor.sh
+fresh config/history.sh
+fresh config/nvm.sh
+fresh config/opts.sh
+fresh config/path.sh
+fresh config/prompt.sh
+
+fresh config/aliases.sh
+
+fresh bashrc --file
+fresh profile --file
+fresh bash_profile --file
+fresh gitignore --file
+fresh gitconfig --file
+fresh vimrc --file
+fresh tmux.conf --file
+fresh alacritty.yml --file="~/.config/alacritty/alacritty.yml"
+fresh starship.toml --file="~/.config/starship.toml"
+fresh askpass.sh --bin
+fresh Xresources --file
+fresh jamesottaway/tmux-up tmux-up --bin
